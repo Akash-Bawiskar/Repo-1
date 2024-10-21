@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"clientName\": \"training\",\r\n   \"clientEmail\": \"training@gmail.com\"\r\n}",
+					"raw": "{\r\n   \"clientName\": \"training\",\r\n   \"clientEmail\": \"training5@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -33,30 +33,6 @@
 						""
 					]
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "statusofbooks",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "listofbooks",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "geta singlebook",
-			"request": {
-				"method": "GET",
-				"header": []
 			},
 			"response": []
 		},
@@ -156,79 +132,6 @@
 					],
 					"path": [
 						"orders",
-						""
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "update orderbody",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "b8926a8bd0c65f8fe7f0106582f4175210b5badae4d539a061f15d58f5c2b84a",
-							"type": "string"
-						}
-					]
-				},
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n   \r\n    \"customerName\": \"dal Lubowitz\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://simple-books-api.glitch.me/orders/Rz9nn28f2q6w9H1Vkd1P-/",
-					"protocol": "https",
-					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
-					],
-					"path": [
-						"orders",
-						"Rz9nn28f2q6w9H1Vkd1P-",
-						""
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "deleteorder",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "b8926a8bd0c65f8fe7f0106582f4175210b5badae4d539a061f15d58f5c2b84a",
-							"type": "string"
-						}
-					]
-				},
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "https://simple-books-api.glitch.me/orders/Rz9nn28f2q6w9H1Vkd1P-/",
-					"protocol": "https",
-					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
-					],
-					"path": [
-						"orders",
-						"Rz9nn28f2q6w9H1Vkd1P-",
 						""
 					]
 				}
